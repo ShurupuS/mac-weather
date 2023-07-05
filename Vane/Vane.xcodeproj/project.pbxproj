@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A83C3E12A55DB5B0040BCEC /* VaneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83C3E02A55DB5B0040BCEC /* VaneApp.swift */; };
+		2A83C3E32A55DB5B0040BCEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83C3E22A55DB5B0040BCEC /* ContentView.swift */; };
+		2A83C3E52A55DB5C0040BCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A83C3E42A55DB5C0040BCEC /* Assets.xcassets */; };
+		2A83C3E82A55DB5C0040BCEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A83C3E72A55DB5C0040BCEC /* Preview Assets.xcassets */; };
+		2A83C3EA2A55DB5C0040BCEC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83C3E92A55DB5C0040BCEC /* Item.swift */; };
+		2A83C3F52A55DB5C0040BCEC /* VaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83C3F42A55DB5C0040BCEC /* VaneTests.swift */; };
+		2A83C3FF2A55DB5C0040BCEC /* VaneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83C3FE2A55DB5C0040BCEC /* VaneUITests.swift */; };
+		2A83C4012A55DB5C0040BCEC /* VaneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A83C4002A55DB5C0040BCEC /* VaneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A83C3F12A55DB5C0040BCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A83C3D52A55DB5B0040BCEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A83C3DC2A55DB5B0040BCEC;
+			remoteInfo = Vane;
+		};
+		2A83C3FB2A55DB5C0040BCEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A83C3D52A55DB5B0040BCEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A83C3DC2A55DB5B0040BCEC;
+			remoteInfo = Vane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A83C3DD2A55DB5B0040BCEC /* Vane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A83C3E02A55DB5B0040BCEC /* VaneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaneApp.swift; sourceTree = "<group>"; };
+		2A83C3E22A55DB5B0040BCEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A83C3E42A55DB5C0040BCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A83C3E72A55DB5C0040BCEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A83C3E92A55DB5C0040BCEC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2A83C3EB2A55DB5C0040BCEC /* Vane.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vane.entitlements; sourceTree = "<group>"; };
+		2A83C3F02A55DB5C0040BCEC /* VaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A83C3F42A55DB5C0040BCEC /* VaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaneTests.swift; sourceTree = "<group>"; };
+		2A83C3FA2A55DB5C0040BCEC /* VaneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A83C3FE2A55DB5C0040BCEC /* VaneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaneUITests.swift; sourceTree = "<group>"; };
+		2A83C4002A55DB5C0040BCEC /* VaneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A83C3DA2A55DB5B0040BCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A83C3ED2A55DB5C0040BCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A83C3F72A55DB5C0040BCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A83C3D42A55DB5B0040BCEC = {
+			isa = PBXGroup;
+			children = (
+				2A83C3DF2A55DB5B0040BCEC /* Vane */,
+				2A83C3F32A55DB5C0040BCEC /* VaneTests */,
+				2A83C3FD2A55DB5C0040BCEC /* VaneUITests */,
+				2A83C3DE2A55DB5B0040BCEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A83C3DE2A55DB5B0040BCEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A83C3DD2A55DB5B0040BCEC /* Vane.app */,
+				2A83C3F02A55DB5C0040BCEC /* VaneTests.xctest */,
+				2A83C3FA2A55DB5C0040BCEC /* VaneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A83C3DF2A55DB5B0040BCEC /* Vane */ = {
+			isa = PBXGroup;
+			children = (
+				2A83C3E02A55DB5B0040BCEC /* VaneApp.swift */,
+				2A83C3E22A55DB5B0040BCEC /* ContentView.swift */,
+				2A83C3E42A55DB5C0040BCEC /* Assets.xcassets */,
+				2A83C3E92A55DB5C0040BCEC /* Item.swift */,
+				2A83C3EB2A55DB5C0040BCEC /* Vane.entitlements */,
+				2A83C3E62A55DB5C0040BCEC /* Preview Content */,
+			);
+			path = Vane;
+			sourceTree = "<group>";
+		};
+		2A83C3E62A55DB5C0040BCEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A83C3E72A55DB5C0040BCEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A83C3F32A55DB5C0040BCEC /* VaneTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A83C3F42A55DB5C0040BCEC /* VaneTests.swift */,
+			);
+			path = VaneTests;
+			sourceTree = "<group>";
+		};
+		2A83C3FD2A55DB5C0040BCEC /* VaneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A83C3FE2A55DB5C0040BCEC /* VaneUITests.swift */,
+				2A83C4002A55DB5C0040BCEC /* VaneUITestsLaunchTests.swift */,
+			);
+			path = VaneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A83C3DC2A55DB5B0040BCEC /* Vane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A83C4042A55DB5C0040BCEC /* Build configuration list for PBXNativeTarget "Vane" */;
+			buildPhases = (
+				2A83C3D92A55DB5B0040BCEC /* Sources */,
+				2A83C3DA2A55DB5B0040BCEC /* Frameworks */,
+				2A83C3DB2A55DB5B0040BCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vane;
+			productName = Vane;
+			productReference = 2A83C3DD2A55DB5B0040BCEC /* Vane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A83C3EF2A55DB5C0040BCEC /* VaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A83C4072A55DB5C0040BCEC /* Build configuration list for PBXNativeTarget "VaneTests" */;
+			buildPhases = (
+				2A83C3EC2A55DB5C0040BCEC /* Sources */,
+				2A83C3ED2A55DB5C0040BCEC /* Frameworks */,
+				2A83C3EE2A55DB5C0040BCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A83C3F22A55DB5C0040BCEC /* PBXTargetDependency */,
+			);
+			name = VaneTests;
+			productName = VaneTests;
+			productReference = 2A83C3F02A55DB5C0040BCEC /* VaneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A83C3F92A55DB5C0040BCEC /* VaneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A83C40A2A55DB5C0040BCEC /* Build configuration list for PBXNativeTarget "VaneUITests" */;
+			buildPhases = (
+				2A83C3F62A55DB5C0040BCEC /* Sources */,
+				2A83C3F72A55DB5C0040BCEC /* Frameworks */,
+				2A83C3F82A55DB5C0040BCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A83C3FC2A55DB5C0040BCEC /* PBXTargetDependency */,
+			);
+			name = VaneUITests;
+			productName = VaneUITests;
+			productReference = 2A83C3FA2A55DB5C0040BCEC /* VaneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A83C3D52A55DB5B0040BCEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2A83C3DC2A55DB5B0040BCEC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2A83C3EF2A55DB5C0040BCEC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2A83C3DC2A55DB5B0040BCEC;
+					};
+					2A83C3F92A55DB5C0040BCEC = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2A83C3DC2A55DB5B0040BCEC;
+					};
+				};
+			};
+			buildConfigurationList = 2A83C3D82A55DB5B0040BCEC /* Build configuration list for PBXProject "Vane" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A83C3D42A55DB5B0040BCEC;
+			productRefGroup = 2A83C3DE2A55DB5B0040BCEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A83C3DC2A55DB5B0040BCEC /* Vane */,
+				2A83C3EF2A55DB5C0040BCEC /* VaneTests */,
+				2A83C3F92A55DB5C0040BCEC /* VaneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A83C3DB2A55DB5B0040BCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A83C3E82A55DB5C0040BCEC /* Preview Assets.xcassets in Resources */,
+				2A83C3E52A55DB5C0040BCEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A83C3EE2A55DB5C0040BCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A83C3F82A55DB5C0040BCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A83C3D92A55DB5B0040BCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A83C3E32A55DB5B0040BCEC /* ContentView.swift in Sources */,
+				2A83C3EA2A55DB5C0040BCEC /* Item.swift in Sources */,
+				2A83C3E12A55DB5B0040BCEC /* VaneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A83C3EC2A55DB5C0040BCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A83C3F52A55DB5C0040BCEC /* VaneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A83C3F62A55DB5C0040BCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A83C4012A55DB5C0040BCEC /* VaneUITestsLaunchTests.swift in Sources */,
+				2A83C3FF2A55DB5C0040BCEC /* VaneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A83C3F22A55DB5C0040BCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A83C3DC2A55DB5B0040BCEC /* Vane */;
+			targetProxy = 2A83C3F12A55DB5C0040BCEC /* PBXContainerItemProxy */;
+		};
+		2A83C3FC2A55DB5C0040BCEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A83C3DC2A55DB5B0040BCEC /* Vane */;
+			targetProxy = 2A83C3FB2A55DB5C0040BCEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A83C4022A55DB5C0040BCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A83C4032A55DB5C0040BCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2A83C4052A55DB5C0040BCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vane/Vane.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vane/Preview Content\"";
+				DEVELOPMENT_TEAM = QBH7WYW55T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexkochetov.com.Vane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A83C4062A55DB5C0040BCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Vane/Vane.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vane/Preview Content\"";
+				DEVELOPMENT_TEAM = QBH7WYW55T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexkochetov.com.Vane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2A83C4082A55DB5C0040BCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QBH7WYW55T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexkochetov.com.VaneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vane";
+			};
+			name = Debug;
+		};
+		2A83C4092A55DB5C0040BCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QBH7WYW55T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexkochetov.com.VaneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vane.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vane";
+			};
+			name = Release;
+		};
+		2A83C40B2A55DB5C0040BCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QBH7WYW55T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexkochetov.com.VaneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Vane;
+			};
+			name = Debug;
+		};
+		2A83C40C2A55DB5C0040BCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QBH7WYW55T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexkochetov.com.VaneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Vane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A83C3D82A55DB5B0040BCEC /* Build configuration list for PBXProject "Vane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A83C4022A55DB5C0040BCEC /* Debug */,
+				2A83C4032A55DB5C0040BCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A83C4042A55DB5C0040BCEC /* Build configuration list for PBXNativeTarget "Vane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A83C4052A55DB5C0040BCEC /* Debug */,
+				2A83C4062A55DB5C0040BCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A83C4072A55DB5C0040BCEC /* Build configuration list for PBXNativeTarget "VaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A83C4082A55DB5C0040BCEC /* Debug */,
+				2A83C4092A55DB5C0040BCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A83C40A2A55DB5C0040BCEC /* Build configuration list for PBXNativeTarget "VaneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A83C40B2A55DB5C0040BCEC /* Debug */,
+				2A83C40C2A55DB5C0040BCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A83C3D52A55DB5B0040BCEC /* Project object */;
+}
