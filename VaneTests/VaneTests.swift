@@ -1,10 +1,3 @@
-//
-//  VaneTests.swift
-//  VaneTests
-//
-//  Created by Aleksei Kochetov on 23.07.2023.
-//
-
 import XCTest
 @testable import Vane
 
