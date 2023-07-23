@@ -2,7 +2,7 @@
 //  VaneUITestsLaunchTests.swift
 //  VaneUITests
 //
-//  Created by Aleksei Kochetov on 05.07.2023.
+//  Created by Aleksei Kochetov on 23.07.2023.
 //
 
 import XCTest
