@@ -3,9 +3,15 @@ import SwiftUI
 @main
 struct VaneApp: App {
 
+    // MARK: - Properties
+
+    let viewModelFactory = ViewModelFactory()
+
     // MARK: - Scene
 
     var body: some Scene {
-        VaneScene()
+        VaneScene(
+            viewModel: viewModelFactory.makeVaneViewModel()
+        )
     }
 }

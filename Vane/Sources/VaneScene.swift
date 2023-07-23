@@ -4,23 +4,23 @@ struct VaneScene: Scene {
 
     // MARK: - Properties
 
-    @State var currentNumber: String = "1"
+    @ObservedObject var viewModel: VaneViewModel
 
     // MARK: - Scene
 
     var body: some Scene {
         MenuBarExtra(
-            currentNumber,
-            systemImage: "\(currentNumber).circle"
+            viewModel.currentNumber,
+            systemImage: "\(viewModel.currentNumber).circle"
         ) {
             Button("One") {
-                currentNumber = "1"
+                viewModel.currentNumber = "1"
             }
             Button("Two") {
-                currentNumber = "2"
+                viewModel.currentNumber = "2"
             }
             Button("Three") {
-                currentNumber = "3"
+                viewModel.currentNumber = "3"
             }
             Divider()
             Button("Quit") {
