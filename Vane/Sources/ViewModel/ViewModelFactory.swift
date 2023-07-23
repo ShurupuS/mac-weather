@@ -4,7 +4,10 @@ class ViewModelFactory {
 
     // MARK: - Properties
 
-    private let weatherService = WeatherService()
+    private lazy var apiClient = APIClient()
+    private lazy var weatherService = WeatherServiceImpl(
+        apiClient: apiClient
+    )
 
     // MARK: - Factory
 

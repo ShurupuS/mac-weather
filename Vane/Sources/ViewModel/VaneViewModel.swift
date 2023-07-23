@@ -14,4 +14,18 @@ class VaneViewModel: ObservableObject {
         self.weatherService = weatherService
     }
 
+    // MARK: - Public
+
+    func loadWeather() async {
+        do {
+            let weather = try await weatherService.getCurrentWeather(
+                for: Location(latitude: 20.0, longitude: 20.0)
+            )
+            print(weather)
+        }
+        catch {
+            print("error")
+        }
+    }
+
 }

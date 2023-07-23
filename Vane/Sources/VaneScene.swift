@@ -13,6 +13,11 @@ struct VaneScene: Scene {
             viewModel.currentNumber,
             systemImage: "\(viewModel.currentNumber).circle"
         ) {
+            Button("Load") {
+                Task {
+                    await viewModel.loadWeather()
+                }
+            }
             Button("One") {
                 viewModel.currentNumber = "1"
             }
