@@ -22,7 +22,10 @@ class APIClient {
 
         guard let url = components.url else { throw APIError.badUrl }
 
-        var urlRequest = URLRequest(url: url)
+        var urlRequest = URLRequest(
+            url: url,
+            cachePolicy: .reloadIgnoringLocalCacheData
+        )
         
         urlRequest.httpMethod = apiRouter.method
 

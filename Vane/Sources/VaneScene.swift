@@ -6,26 +6,22 @@ struct VaneScene: Scene {
 
     @ObservedObject var viewModel: VaneViewModel
 
+    // MARK: - Lifecycle
+
+    init(viewModel: VaneViewModel) {
+        self.viewModel = viewModel
+    }
+
     // MARK: - Scene
 
     var body: some Scene {
         MenuBarExtra(
-            viewModel.currentNumber,
-            systemImage: "\(viewModel.currentNumber).circle"
+            viewModel.barString
         ) {
-            Button("Load") {
+            Button("Reload") {
                 Task {
                     await viewModel.loadWeather()
                 }
-            }
-            Button("One") {
-                viewModel.currentNumber = "1"
-            }
-            Button("Two") {
-                viewModel.currentNumber = "2"
-            }
-            Button("Three") {
-                viewModel.currentNumber = "3"
             }
             Divider()
             Button("Quit") {
