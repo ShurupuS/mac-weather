@@ -1,9 +1,11 @@
 import SwiftUI
 
+typealias CurrentConditions = (weather: Weather, location: Location)
+
 protocol WeatherService {
-    func getCurrentWeather(
-        for location: Location
-    ) async throws -> CurrentWeatherDTO
+    func getCurrent(
+        for location: GPS
+    ) async throws -> CurrentConditions
 }
 
 class WeatherServiceImpl: WeatherService {
@@ -20,13 +22,19 @@ class WeatherServiceImpl: WeatherService {
 
     // MARK: - Requests
 
-    func getCurrentWeather(
-        for location: Location
-    ) async throws -> CurrentWeatherDTO {
-        let response: CurrentWeatherDTO = try await apiClient.request(
-            apiRouter: .getCurrentWeather(location: location)
+    func getCurrent(
+        for location: GPS
+    ) async throws -> CurrentConditions {
+        let response: CurrentDTO = try await apiClient.request(
+            apiRouter: .getCurrent(location: location)
         )
-        return response
+        let weather = WeatherMapper.extractCurrentWeather(
+            from: response.current
+        )
+        let location = LocationMapper.extractLocation(
+            from: response.location
+        )
+        return (weather, location)
     }
 
 }

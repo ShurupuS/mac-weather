@@ -8,3 +8,4 @@ Current weather service: https://www.weatherapi.com/api-explorer.aspx#current
 - map
 - localisation
 - about page
+- разбить локацию и погоду

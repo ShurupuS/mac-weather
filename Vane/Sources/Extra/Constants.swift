@@ -5,7 +5,7 @@ enum Constants {
         static let key = "42c8a3e1777746618be144957232307"
     }
     enum Geo {
-        static let belgrade = Location(
+        static let belgrade = GPS(
             latitude: 44.817778,
             longitude: 20.456944
         )

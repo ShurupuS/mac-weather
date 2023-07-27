@@ -29,11 +29,11 @@ class VaneViewModel: ObservableObject {
     @MainActor
     func loadWeather() async {
         do {
-            let weather = try await weatherService.getCurrentWeather(
+            let conditions = try await weatherService.getCurrent(
                 for: Constants.Geo.belgrade
             )
             barString = Formatter.formatCelsius(
-                degrees: weather.current.temperatureCelsius
+                degrees: conditions.weather.temperatureCelsius
             )
         }
         catch {
