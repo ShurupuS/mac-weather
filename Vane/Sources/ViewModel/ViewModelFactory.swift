@@ -5,6 +5,7 @@ class ViewModelFactory {
     // MARK: - Properties
 
     private lazy var apiClient = APIClient()
+    private lazy var networkMonitor = NetworkMonitor()
     private lazy var weatherService = WeatherServiceImpl(
         apiClient: apiClient
     )
@@ -12,7 +13,10 @@ class ViewModelFactory {
     // MARK: - Factory
 
     func makeVaneViewModel() -> VaneViewModel {
-        VaneViewModel(weatherService: weatherService)
+        VaneViewModel(
+            weatherService: weatherService,
+            networkMonitor: networkMonitor
+        )
     }
 
 }

@@ -13,4 +13,7 @@ enum Constants {
     enum Timer {
         static let delay: TimeInterval = 60.0
     }
+    enum String {
+        static let noConnection = "􀢤"
+    }
 }
