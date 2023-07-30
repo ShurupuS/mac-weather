@@ -4,6 +4,8 @@ struct VaneScene: Scene {
 
     // MARK: - Properties
 
+    @Environment(\.openWindow) var openWindow
+
     @ObservedObject var viewModel: VaneViewModel
 
     // MARK: - Lifecycle
@@ -22,6 +24,10 @@ struct VaneScene: Scene {
                 Task {
                     await viewModel.loadWeather()
                 }
+            }
+            Button("Settings") {
+                NSApplication.shared.activate(ignoringOtherApps: true)
+                openWindow(id: "settings")
             }
             Divider()
             Button("Quit") {

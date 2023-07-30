@@ -13,5 +13,8 @@ struct VaneApp: App {
         VaneScene(
             viewModel: viewModelFactory.makeVaneViewModel()
         )
+        Window("Settings", id: "settings") {
+            SettingsView()
+        }
     }
 }
